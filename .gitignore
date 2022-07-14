@@ -1,19 +1,17 @@
-# dependencies
-/node_modules
+# Dependencies
+node_modules
+package-lock.json
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# Generated files
+*.log
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+coverage
+fhir/fixtures/data/shr
+fhir/fixtures/data/uscore
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Local Development Certs
+cert.pem
+key.pem
+
+# ENV Files
+.local-secrets/auth.secrets
